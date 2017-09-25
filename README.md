@@ -1,6 +1,6 @@
 # RocketSingh
 Bike hailing tech to create an infrastructure for Uber for Bikes usecase. This project is an attempt to replicate the taxi aggregation service using bikes as the transport medium.
-They will be two user facing apps: 
+They will be two user facing Android mobile apps: 
 - One for the customer(to be pillion) 
 - Other for the Biker who has under this tech platform to serve the customers. 
 
