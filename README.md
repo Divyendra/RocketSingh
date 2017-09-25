@@ -8,7 +8,7 @@ Both the apps have all the entire user interaction flow implemented like :
 - Register and Login
 - Search for Bikers nearby
 - Request for a biker at a location
-- Send promocodes; Avail promocodes
+- Send Referrals; Avail promocodes
 
 Both the apps have been coded to be friendly on the resource intensive mobile environment. They use event driven Publish-Subscribe mechanism avoiding polling and Byte compression protocols to avoid mobile data drain.
 
