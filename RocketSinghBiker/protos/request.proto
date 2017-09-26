@@ -1,0 +1,24 @@
+package request;
+//'request' here meant Trip and nor a HTTP request. Bad jargon :(
+message TripData {
+    optional double start_latitude = 1;
+    optional double start_longitude = 2;
+    repeated double on_way_latitude = 3;
+    repeated double on_way_longitude = 4;
+    optional double end_latitude = 5;
+    optional double end_longitude = 6;
+    optional double trip_distance = 7;
+    optional int64 trip_time = 8;
+    optional string start_location = 9;
+}
+
+message PaymentDetails {
+    optional double trip_distance = 1;
+    optional double trip_cost = 2;
+    optional double trip_time = 3;
+    optional double promo_code = 4;
+    optional int64 start_time = 5;
+    optional double payment_made = 6;
+    optional string payment_mode = 7;
+    optional int32 surge_pricing_multiplier = 8;
+}

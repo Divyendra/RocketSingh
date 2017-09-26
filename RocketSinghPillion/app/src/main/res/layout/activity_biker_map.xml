@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainContainer"
+    tools:context="org.rocketsingh.android.rocketsinghpillion.ui.BikerMap.BikerMapActivity">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+        android:name="org.rocketsingh.android.rocketsinghpillion.ui.BikerMap.TouchableSupportMapFragment"
+        tools:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/user_mapmarker"/>
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="?android:progressBarStyle"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="bottom|center"
+        android:id="@+id/requestBikerBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/ButtonPrimaryRS_MAP"
+        android:enabled="false"
+        android:text="@string/btn_text_requestbiker"
+        android:onClick="requestBiker"/>
+</FrameLayout>

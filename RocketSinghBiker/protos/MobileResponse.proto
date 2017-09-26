@@ -1,0 +1,32 @@
+package mobileresponse;
+import "biker.proto";
+import "request.proto";
+
+message LoginResponseBiker{
+    optional string status = 1;
+    optional biker.BikerProfile biker_profile = 2;
+}
+
+
+message AllRequestResponse {
+    optional string status = 1;
+    repeated mobileresponse.CompleteRequestDetails complete_request = 2;
+}
+
+//Used as reponse to biker once it completes the trip
+message PaymentDetailResponse {
+    optional string status = 1;
+    optional request.PaymentDetails paymentDetails = 2;
+}
+
+//Proto of single request Response - Useful for sending back history
+message CompleteRequestDetails {
+    optional string time_id = 1;
+    optional string customer_name = 2;
+    optional string biker_name = 3;
+    optional string biker_number_plate = 4;
+    optional string request_status = 5;
+    optional request.TripData tripData= 6;
+    optional request.PaymentDetails paymentDetails= 7;
+}
+

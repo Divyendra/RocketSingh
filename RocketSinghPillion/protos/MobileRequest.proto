@@ -1,0 +1,35 @@
+package mobilerequest;
+import "request.proto";
+import "biker.proto";
+
+message LatLngProto {
+    optional double latitude = 1;
+    optional double longitude = 2;
+}
+
+message NewRequest {
+    optional string phoneNo = 1;
+    optional string name = 2;
+    optional int32 app_type = 3;
+    optional request.TripData trip_data = 4;
+    optional biker.BikersNearBy bikerNearBy = 5;
+    optional double cur_latitude = 6;
+    optional double cur_longitude = 7;
+    optional string cust_device_token = 8;
+}
+
+//optional string request_id = 1;
+//optional string time_id = 2;
+//optional string request_status_flag = 3;
+//optional request.TripData tripData = 4;
+message RequestData {
+    optional string entity_id = 1;
+    optional int32 entity_type = 2;
+    optional string time_id = 3;
+    optional string request_status_flag = 4;
+    optional request.TripData tripData = 5;
+    //Below are in server side. Delibrately commented in ClientSide.
+//    optional CancellationDetails cancellationDetails= 6;
+//    optional RequestedOrderDetails requestOrderDetails= 7;
+}
+

@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.rocketsingh.android.rocketsinghpillion.ui.BikerMap.BikerMapActivity">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+        android:name="org.rocketsingh.android.rocketsinghbiker.ui.BikerMap.TouchableSupportMapFragment"
+        tools:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/respondActionBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/ButtonPrimaryRS_MAP"
+            android:text=""
+            android:onClick="clickedActionButton"/>
+        <Button
+            android:id="@+id/showCustDetailsBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/ButtonPrimaryRS_MAP"
+            android:text="Customer Details"
+            android:onClick="showCustDetails"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,29 @@
+package mobilerequest;
+import "request.proto";
+
+message RequestData {
+    optional string entity_id = 1;
+    optional int32 entity_type = 2;
+    optional string time_id = 3;
+    optional string request_status_flag = 4;
+    optional request.TripData tripData = 5;
+    optional CancellationDetails cancellationDetails = 6;
+}
+
+message CancellationDetails {
+    enum BikerState {
+        ON_WAY_TO_PICKUP_ORDER = 1;
+        REACHED_MERCHANT = 2;
+        STARTED_DELIVERY = 3;
+        FINISHED_DELIVERY = 4;
+    }
+    optional BikerState biker_state = 1;
+    optional bool is_cancelled = 2;
+    optional string cancelled_by = 3;
+    optional string cancellation_reason = 4;
+}
+
+message BikerStatusData {
+    optional string biker_id = 1;
+    optional string biker_status_flag = 2;
+}

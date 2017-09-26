@@ -1,0 +1,36 @@
+package mobileresponse;
+import "customer.proto";
+import "request.proto";
+
+message LoginResponseCustomer{
+    optional string status = 1;
+    optional customer.CustomerProfile cust_profile = 2;
+}
+
+message BikersNearByResponse {
+    optional string status = 1;
+    repeated biker.BikerLocation bikerLocations = 2;
+}
+
+message AllRequestResponse {
+    optional string status = 1;
+    repeated mobileresponse.CompleteRequestDetails complete_request = 2;
+}
+
+message CompleteRequestDetails {
+    optional string time_id = 1;
+    optional string customer_name = 2;
+    optional string biker_name = 3;
+    optional string biker_number_plate = 4;
+    optional string request_status = 5;
+    optional request.TripData tripData= 6;
+    optional request.PaymentDetails paymentDetails= 7;
+}
+
+//Used as response when a pillion/merchant makes a request for biker
+message MakeRequestResponse {
+    optional string status = 1;
+    optional string time_id = 2;
+    optional biker.BikerLocation bikerLocation = 3;
+}
+

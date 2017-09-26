@@ -1,0 +1,1 @@
+java -jar E:\Softwares\wire-compiler-1.7.0-jar-with-dependencies.jar  --proto_path=E:\workspace_android\workspace_androidstudio\RocketSinghPillion\protos  --java_out=E:\workspace_android\workspace_androidstudio\RocketSinghPillion\app\src\main\java\protoclasses\ *.proto

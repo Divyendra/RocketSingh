@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnCount="2">
+    <TextView
+        android:id="@+id/tripCost"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="62sp"
+        android:textColor="@color/primary_dark_material_dark"
+        tools:text = "Rs.90"
+        />
+    <TextView
+        android:id="@+id/tripDistance"
+        android:layout_columnWeight="1"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="26sp"
+        android:textColor="@color/primary_text"
+        tools:text="5.3 km"
+        />
+    <TextView
+        android:id="@+id/tripTime"
+        android:layout_columnWeight="1"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="fill_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/primary_text"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        tools:text="90 min"
+        />
+    <TextView
+        android:layout_columnWeight="1"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="fill_horizontal|fill_vertical"
+        android:gravity="top|center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text"
+        android:text="TripDistance"
+        />
+    <TextView
+        android:layout_columnWeight="1"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="fill_horizontal|fill_vertical"
+        android:gravity="top|center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp"
+        android:layout_marginBottom="@dimen/abc_list_item_padding_horizontal_material"
+        android:text="TravelTime"
+        />
+    <Button
+        android:id="@+id/okBtn"
+        style="@style/ButtonPrimaryRS"
+        android:text="OK"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"/>
+</GridLayout>

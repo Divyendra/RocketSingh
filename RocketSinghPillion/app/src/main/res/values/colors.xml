@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#e9eff3</color>
+    <color name="grey_dark">#2e4453</color>
+    <color name="grey_darkest">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <!-- Secondary Greys -->
+    <color name="grey_lighten_30">#e9eff3</color>
+    <color name="grey_lighten_20">#c8d7e1</color>
+    <color name="grey_lighten_10">#a8bece</color>
+    <color name="grey_darken_10">#668eaa</color>
+    <color name="grey_darken_20">#4f748e</color>
+    <color name="grey_darken_30">#3d596d</color>
+    <color name="color_section_heading">#A4A18E</color>
+
+    <color name="blue_light">#78dcfa</color>
+
+    <color name="DarkOrange">#D84315</color>
+    <color name="material_orange">#FF5722</color>
+    <!--Material Colors -->
+    <color name="color_primary">#0087be</color>
+    <color name="color_primary_dark">#006b98</color>
+    <color name="color_control_activated">@color/DarkOrange</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="color_control_highlight">#CC78C8E6</color>
+    <!--Use the accent color for your primary action button and components like switches or sliders-->
+    <color name="color_accent">@color/material_orange</color>
+    <color name="primary_text">@color/grey_darkest</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">@color/white</color>
+    <color name="divider">#B6B6B6</color>
+    <!-- -->
+
+    <!--Button -->
+    <color name="button_defaultcolor">#15000000</color>
+    <color name="button_pressed">#CC78C8E6</color>
+    <color name="color_button_text">@color/color_primary_dark</color>
+
+    <!-- Used in Nav drawer -->
+    <color name="drawer_background">@color/grey_dark</color>
+    <color name="drawer_icon_tint">@color/grey_darken_30</color>
+    <color name="drawer_text">@color/blue_light</color>
+    <color name="drawer_divider">@color/grey_darken_30</color>
+    <color name="button_primarycolor">#10000000</color>
+    <color name="translucent_grey_lighten_20">#80c8d7e1</color>
+    <color name="drawer_background_selected">@color/grey_darken_20</color>
+
+</resources>

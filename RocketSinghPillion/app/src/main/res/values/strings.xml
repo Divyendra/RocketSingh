@@ -1,0 +1,70 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+    <!--<string name="server_address">http://54.255.131.110:8009/</string>-->
+    <string name="server_address">http://192.168.0.190:8809/</string>
+    <string name="path_pillionlogin">customerLogin</string>
+    <string name="path_pillionregister">customerRegistration</string>
+    <string name="path_pillionhistory">getRequestHistoryCustomer</string>
+    <string name="path_getBikersNearBy">findBikersInProximity</string>
+    <string name="path_makeARequest">createNewRequest</string>
+    <string name="path_getBikerLocation">get_Biker_LatLog</string>
+    <string name="path_cancelRequest">cancel_request_customer</string>
+
+    <string name="app_name">RocketSinghPillion</string>
+
+    <string name="google_maps_key">AIzaSyA4yThMcCvZtVXYrr6PQwRK-_1vg6s_JCc</string>
+
+    <!--Input validation Errors -->
+    <string name="error_field_empty">Field is empty</string>
+    <string name="error_password_invalid">Password given is Incorrect. Please try again</string>
+    <string name="error_password_short">Password Too Short</string>
+    <string name="error_password_mismatch">Passwords dont match</string>
+    <string name="error_phno_exists">An account with this number already exists.</string>
+    <string name="error_phno_invalid">Invalid PhoneNo.</string>
+    <string name="error_email_invalid">Valid Email is expected</string>
+    <string name="error_refcode_exists">Invalid Referral Code</string>
+
+    <!--Make a Request Failed prompts -->
+    <string name="error_bikerallocated">Oops, the biker went offline. Apologies</string>
+    <string name="error_serverissue">Apologies. Server faced a problem dealing with the request</string>
+    <string name="error_sendrequesterror">Failed to send your request. Please retry</string>
+    <string name="error_findbikers">Failed to Fetch Bikers</string>
+
+    <string name="btn_text_register">Register</string>
+    <string name="btn_text_login">Login</string>
+    <string name="btn_text_requestbiker">Request Biker</string>
+
+    <!-- NavDrawer related -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="intruo_nav_menu">
+        <item>Bedroom</item>
+        <item>Kitchen</item>
+        <item>Living Room</item>
+        <item>Dining Area</item>
+        <item>Free Advice</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="RS_nav_menu_hasDivider">
+        <item>Dining Area</item>
+        <item>Free Advice</item>
+    </string-array>
+    <string name="page1_title">Search Bikers</string>
+    <string name="page2_title">Page2 title</string>
+    <string name="page3_title">Page3 title</string>
+    <!-- -->
+
+    <string name="title_activity_biker_map">Find a Biker</string>
+    <string name="title_activity_page2">Page2Activity</string>
+    <string name="title_activity_page3">Page3Activity</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_trip">Track Trip</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="format_amount_INR">\u20B9 <xliff:g id="amount">%1$1.2f</xliff:g></string>
+    <string name="format_distance"><xliff:g id="distance">%1$1.2f</xliff:g> km</string>
+    <string name="format_time"><xliff:g id="time">%1$s</xliff:g> min</string>
+
+    <string name="default_loading_text">Loading</string>
+
+</resources>

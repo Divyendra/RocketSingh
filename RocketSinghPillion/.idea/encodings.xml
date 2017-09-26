@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghpillion/ui/navdrawer/DrawerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghpillion/ui/navdrawer/DrawerItems.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghpillion/ui/navdrawer/RSDrawerActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghpillion/ui/navdrawer/RSDrawerActivitywithGoogleApi.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghpillion/utilities/DisplayUtils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/pressed_card.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ab_bottom_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ab_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ab_stacked_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/drawer_header_bg_rocketsingh.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_menu_white_24dp.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/navdrawer_bedsolid_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/navdrawer_dining_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/navdrawer_livingroom_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ab_bottom_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ab_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ab_stacked_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_menu_white_24dp.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ab_bottom_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ab_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ab_stacked_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/drawer_header_bg_rocketsingh.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_menu_white_24dp.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navdrawer_bedsolid_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navdrawer_dining_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navdrawer_livingroom_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ab_bottom_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ab_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ab_stacked_solid_example.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/drawer_header_bg_rocketsingh.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_menu_white_24dp.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/navdrawer_bedsolid_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/navdrawer_dining_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/navdrawer_livingroom_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/drawer_shadow.9.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/hyperlink_underline.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer_static.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/drawer.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/navdrawer_list_eachitem.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar_actionbar.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles_navdrawer.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

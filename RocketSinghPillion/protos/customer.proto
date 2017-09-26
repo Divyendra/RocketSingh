@@ -1,0 +1,37 @@
+package customer;
+// Next id - 26
+// Customer profile details
+message CustomerProfile {
+  optional string phone_number = 1;
+  optional string first_name = 2;
+  optional string last_name = 3;
+  optional string device_type = 4;
+  optional string alternate_phone = 6;
+  optional string email_id = 7;
+  optional string alternate_email_id = 8;
+
+  // Address details
+  optional string street_address = 9;
+  optional string landmark = 10;
+  optional string sub_locality = 11;
+  optional string locality = 12;
+  optional string city = 13;
+  optional string state = 14;
+  optional string country = 15;
+  optional string zip_code = 16;
+  optional string latitude = 17;
+  optional string longitude = 18;
+
+  // Online profile
+  optional string fb_page = 20;
+
+  // Date on which this Record was created
+  optional int64 date_created = 22;
+
+  // Account password & device token given by GCM
+  optional string password = 23;
+  optional string device_token = 24;
+  optional string referral_code = 25;
+}
+
+// End - Protocol buffers for Customer profile details.

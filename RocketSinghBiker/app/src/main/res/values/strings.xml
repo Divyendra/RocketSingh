@@ -1,0 +1,72 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+    <!--<string name="server_address">http://54.255.131.110:8009/</string>-->
+    <string name="server_address">http://192.168.1.104:8809/</string>
+    <string name="path_bikerlogin">bikerLogin</string>
+    <string name="path_bikerregister">bikerRegistration</string>
+    <string name="path_bikerhistory">getRequestHistoryBiker</string>
+    <string name="path_requestUpdate">updateRequestStates</string>
+    <string name="path_bikerLocUpdate">bikerLocUpdate</string>
+    <string name="path_bikerGoOffline">bikerStatusChange</string>
+    <string name="path_endtrip">completeRequest</string>
+
+
+    <string name="app_name">RocketSinghBiker</string>
+
+    <!--Used for maps and gettingPlaceDetails from PlaceId -->
+    <string name="google_maps_key">AIzaSyA4yThMcCvZtVXYrr6PQwRK-_1vg6s_JCc</string>
+    <!-- For Directions API, we have to use a 'server' type key.-->
+    <string name="google_directions_key">AIzaSyAPCSynYr1S1F9ILRPahUABuPHvg4qksnE</string>
+
+    <!--Input validation Errors -->
+    <string name="error_field_empty">Field is empty</string>
+    <string name="error_password_invalid">Password given is Incorrect. Please try again</string>
+    <string name="error_password_short">Password Too Short</string>
+    <string name="error_password_mismatch">Passwords dont match</string>
+    <string name="error_phno_exists">An account with this number already exists.</string>
+    <string name="error_phno_invalid">Invalid PhoneNo.</string>
+    <string name="error_email_invalid">Valid Email is expected</string>
+    <string name="error_refcode_exists">Invalid Referral Code</string>
+
+    <string name="btn_text_register">Register</string>
+    <string name="btn_text_login">Login</string>
+
+    <!-- NavDrawer related -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="intruo_nav_menu">
+        <item>Bedroom</item>
+        <item>Kitchen</item>
+        <item>Living Room</item>
+        <item>Dining Area</item>
+        <item>Free Advice</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="RS_nav_menu_hasDivider">
+        <item>Dining Area</item>
+        <item>Free Advice</item>
+    </string-array>
+    <string name="page1_title">Search Bikers</string>
+    <string name="page2_title">Page2 title</string>
+    <string name="page3_title">Page3 title</string>
+    <!-- -->
+
+    <string name="title_activity_biker_map">See Map</string>
+    <string name="title_activity_page2">Page2Activity</string>
+    <string name="title_activity_page3">Page3Activity</string>
+    <string name="title_activity_history">History</string>
+
+    <string name="pref_key_currentlat">bikercurrentlat</string>
+    <string name="pref_key_currentlong">bikercurrentlong</string>
+
+    <string name="btn_respondaction_newtripreceived">Start to Customer</string>
+    <string name="btn_respondaction_towardscust">Start Trip</string>
+    <string name="btn_respondaction__towardscustdestination">End Trip</string>
+
+    <string name="format_amount_INR">\u20B9 <xliff:g id="amount">%1$1.2f</xliff:g></string>
+    <string name="format_distance"><xliff:g id="distance">%1$1.2f</xliff:g> km</string>
+    <string name="format_time"><xliff:g id="time">%1$s</xliff:g> min</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

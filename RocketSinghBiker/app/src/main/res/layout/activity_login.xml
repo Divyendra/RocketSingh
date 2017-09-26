@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:id="@+id/input_layout_phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/input_phno"
+            android:singleLine="true"
+            android:paddingLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Phone Number(username)" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout android:id="@+id/input_layout_pwd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/input_pwd"
+            android:paddingLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLines="1" android:singleLine="true"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="Login"
+            android:imeOptions="actionUnspecified"
+            android:hint="Password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        style="@style/ButtonPrimaryRS"
+        android:text="@string/btn_text_login"
+        android:onClick="login"/>
+
+</LinearLayout>

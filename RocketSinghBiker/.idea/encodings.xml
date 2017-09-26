@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/ui/PlaceSuggestions/PlaceAutocompleteAdapter_Custom_RESTFUL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/ui/PlaceSuggestions/SuggestionsActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/AbstractRouting.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/GoogleParser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/Route.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/Routing.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/RoutingListener.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/org/rocketsingh/android/rocketsinghbiker/utilities/DirectionsUtil/Segment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/hyperlink_underline.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_place.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listitem_autocomplete.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
